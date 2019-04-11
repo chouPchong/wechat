@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>WHERE AM I</title>
+	<style>
+		#time{
+			width: 300px;
+			height: 50px;
+			position: absolute;
+			left: 50%;
+			top: 25%;
+			margin-left: -320px;
+			text-align: center;
+			line-height: 0;
+			letter-spacing: 35px;
+		}
+	</style>
+</head>
+<body>
+<div id="time"><h1></h1></div>
+<script>
+    function  show() {
+        var clock = document.getElementsByTagName('h1');
+        var date = new Date();
+        clock[0].innerHTML=date.getTime();
+    }
+
+    setInterval(show,1);
+</script>
+</body>
+</html>

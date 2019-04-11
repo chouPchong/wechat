@@ -1,0 +1,534 @@
+[2018/02/28 06:08:02] [:info] TR0001: 返回文本消息字符串: <xml>
+					<ToUserName><![CDATA[]]></ToUserName>
+					<FromUserName><![CDATA[]]></FromUserName>
+					<CreateTime>1519769282</CreateTime>
+					<MsgType><![CDATA[text]]></MsgType>
+					<Content><![CDATA[不属于规定类型]]></Content>
+		        		</xml>
+[2018/03/01 10:05:16] [:info] TR0001: 返回文本消息字符串: <xml>
+					<ToUserName><![CDATA[ogSMr1RmjWxsJ5XE4mcDeoPE5kv8]]></ToUserName>
+					<FromUserName><![CDATA[gh_8d6b42d51b14]]></FromUserName>
+					<CreateTime>1519869916</CreateTime>
+					<MsgType><![CDATA[text]]></MsgType>
+					<Content><![CDATA[点击其他按钮]]></Content>
+		        		</xml>
+[2018/03/01 10:05:23] [:info] TR0001: 返回文本消息字符串: <xml>
+					<ToUserName><![CDATA[ogSMr1RmjWxsJ5XE4mcDeoPE5kv8]]></ToUserName>
+					<FromUserName><![CDATA[gh_8d6b42d51b14]]></FromUserName>
+					<CreateTime>1519869923</CreateTime>
+					<MsgType><![CDATA[text]]></MsgType>
+					<Content><![CDATA[点击其他按钮]]></Content>
+		        		</xml>
+[2018/03/01 10:05:26] [:info] TR0001: 返回文本消息字符串: <xml>
+					<ToUserName><![CDATA[ogSMr1RmjWxsJ5XE4mcDeoPE5kv8]]></ToUserName>
+					<FromUserName><![CDATA[gh_8d6b42d51b14]]></FromUserName>
+					<CreateTime>1519869926</CreateTime>
+					<MsgType><![CDATA[text]]></MsgType>
+					<Content><![CDATA[点击其他按钮]]></Content>
+		        		</xml>
+[2018/03/01 10:05:28] [:info] TR0001: 返回文本消息字符串: <xml>
+					<ToUserName><![CDATA[ogSMr1RmjWxsJ5XE4mcDeoPE5kv8]]></ToUserName>
+					<FromUserName><![CDATA[gh_8d6b42d51b14]]></FromUserName>
+					<CreateTime>1519869928</CreateTime>
+					<MsgType><![CDATA[text]]></MsgType>
+					<Content><![CDATA[点击其他按钮]]></Content>
+		        		</xml>
+[2018/03/01 10:05:30] [:info] TR0001: 返回文本消息字符串: <xml>
+					<ToUserName><![CDATA[ogSMr1RmjWxsJ5XE4mcDeoPE5kv8]]></ToUserName>
+					<FromUserName><![CDATA[gh_8d6b42d51b14]]></FromUserName>
+					<CreateTime>1519869930</CreateTime>
+					<MsgType><![CDATA[text]]></MsgType>
+					<Content><![CDATA[点击其他按钮]]></Content>
+		        		</xml>
+[2018/03/01 10:05:33] [:info] TR0001: 返回文本消息字符串: <xml>
+					<ToUserName><![CDATA[ogSMr1RmjWxsJ5XE4mcDeoPE5kv8]]></ToUserName>
+					<FromUserName><![CDATA[gh_8d6b42d51b14]]></FromUserName>
+					<CreateTime>1519869933</CreateTime>
+					<MsgType><![CDATA[text]]></MsgType>
+					<Content><![CDATA[点击其他按钮]]></Content>
+		        		</xml>
+[2018/03/01 10:05:35] [:info] TR0001: 返回文本消息字符串: <xml>
+					<ToUserName><![CDATA[ogSMr1RmjWxsJ5XE4mcDeoPE5kv8]]></ToUserName>
+					<FromUserName><![CDATA[gh_8d6b42d51b14]]></FromUserName>
+					<CreateTime>1519869935</CreateTime>
+					<MsgType><![CDATA[text]]></MsgType>
+					<Content><![CDATA[点击其他按钮]]></Content>
+		        		</xml>
+[2018/03/01 15:03:16] [:info] TR0001: 返回文本消息字符串: <xml>
+					<ToUserName><![CDATA[ofWFh0oKZNPWY7RGxmCe2Tp8ShIk]]></ToUserName>
+					<FromUserName><![CDATA[gh_979c3986fc2a]]></FromUserName>
+					<CreateTime>1519887796</CreateTime>
+					<MsgType><![CDATA[text]]></MsgType>
+					<Content><![CDATA[你发送的是文本消息]]></Content>
+		        		</xml>
+[2018/03/02 08:53:59] [:info] TR0001: 返回文本消息字符串: <xml>
+					<ToUserName><![CDATA[ofWFh0oKZNPWY7RGxmCe2Tp8ShIk]]></ToUserName>
+					<FromUserName><![CDATA[gh_979c3986fc2a]]></FromUserName>
+					<CreateTime>1519952039</CreateTime>
+					<MsgType><![CDATA[text]]></MsgType>
+					<Content><![CDATA[你发送的是文本消息]]></Content>
+		        		</xml>
+[2018/03/02 08:54:32] [:info] TR0001: 返回文本消息字符串: <xml>
+					<ToUserName><![CDATA[ofWFh0oKZNPWY7RGxmCe2Tp8ShIk]]></ToUserName>
+					<FromUserName><![CDATA[gh_979c3986fc2a]]></FromUserName>
+					<CreateTime>1519952072</CreateTime>
+					<MsgType><![CDATA[text]]></MsgType>
+					<Content><![CDATA[你发送的是文本消息]]></Content>
+		        		</xml>
+[2018/03/02 08:54:39] [:info] TR0001: 返回文本消息字符串: <xml>
+					<ToUserName><![CDATA[ofWFh0oKZNPWY7RGxmCe2Tp8ShIk]]></ToUserName>
+					<FromUserName><![CDATA[gh_979c3986fc2a]]></FromUserName>
+					<CreateTime>1519952079</CreateTime>
+					<MsgType><![CDATA[text]]></MsgType>
+					<Content><![CDATA[你发送的是文本消息]]></Content>
+		        		</xml>
+[2018/03/02 08:54:48] [:info] TR0001: 返回文本消息字符串: <xml>
+					<ToUserName><![CDATA[ofWFh0oKZNPWY7RGxmCe2Tp8ShIk]]></ToUserName>
+					<FromUserName><![CDATA[gh_979c3986fc2a]]></FromUserName>
+					<CreateTime>1519952088</CreateTime>
+					<MsgType><![CDATA[text]]></MsgType>
+					<Content><![CDATA[你发送的是文本消息]]></Content>
+		        		</xml>
+[2018/03/02 08:56:50] [:info] TR0001: 返回文本消息字符串: <xml>
+					<ToUserName><![CDATA[ofWFh0oKZNPWY7RGxmCe2Tp8ShIk]]></ToUserName>
+					<FromUserName><![CDATA[gh_979c3986fc2a]]></FromUserName>
+					<CreateTime>1519952210</CreateTime>
+					<MsgType><![CDATA[text]]></MsgType>
+					<Content><![CDATA[你发送的是文本消息哈哈]]></Content>
+		        		</xml>
+[2018/03/02 10:40:38] [:info] TR0001: 返回文本消息字符串: <xml>
+					<ToUserName><![CDATA[ofWFh0oKZNPWY7RGxmCe2Tp8ShIk]]></ToUserName>
+					<FromUserName><![CDATA[gh_979c3986fc2a]]></FromUserName>
+					<CreateTime>1519958438</CreateTime>
+					<MsgType><![CDATA[text]]></MsgType>
+					<Content><![CDATA[你发送的是图片消息,url是：http://mmbiz.qpic.cn/mmbiz_jpg/15ibe7iczzQTb4UI3lGlCicQ0450WYuoaxgrLwl2X1ZicJY6tUAfWJiajibsicB94uiaialiaSy7h8eGy2k3Qiaj7cR7Q7icag/0]]></Content>
+		        		</xml>
+[2018/03/02 10:56:09] [:info] TR0001: 返回文本消息字符串: <xml>
+					<ToUserName><![CDATA[ofWFh0oKZNPWY7RGxmCe2Tp8ShIk]]></ToUserName>
+					<FromUserName><![CDATA[gh_979c3986fc2a]]></FromUserName>
+					<CreateTime>1519959369</CreateTime>
+					<MsgType><![CDATA[text]]></MsgType>
+					<Content><![CDATA[你发送的是文本消息:hello]]></Content>
+		        </xml>
+[2018/03/02 10:56:16] [:info] TR0001: 返回文本消息字符串: <xml>
+					<ToUserName><![CDATA[ofWFh0oKZNPWY7RGxmCe2Tp8ShIk]]></ToUserName>
+					<FromUserName><![CDATA[gh_979c3986fc2a]]></FromUserName>
+					<CreateTime>1519959376</CreateTime>
+					<MsgType><![CDATA[text]]></MsgType>
+					<Content><![CDATA[你发送的是图片消息,MediaId是：S536ZQq6NIrtkpy22yKJTRo5r4BjrgDrJPz4AYXNdWKzBnIloo6JKLVhHgtDsA58]]></Content>
+		        </xml>
+[2018/03/02 10:56:43] [:info] TR0001: 返回文本消息字符串: <xml>
+					<ToUserName><![CDATA[ofWFh0oKZNPWY7RGxmCe2Tp8ShIk]]></ToUserName>
+					<FromUserName><![CDATA[gh_979c3986fc2a]]></FromUserName>
+					<CreateTime>1519959403</CreateTime>
+					<MsgType><![CDATA[text]]></MsgType>
+					<Content><![CDATA[TODO: 其他未处理消息类型]]></Content>
+		        </xml>
+[2018/03/02 10:58:05] [:info] TR0001: 返回文本消息字符串: <xml>
+					<ToUserName><![CDATA[ogSMr1RmjWxsJ5XE4mcDeoPE5kv8]]></ToUserName>
+					<FromUserName><![CDATA[gh_8d6b42d51b14]]></FromUserName>
+					<CreateTime>1519959485</CreateTime>
+					<MsgType><![CDATA[text]]></MsgType>
+					<Content><![CDATA[点击其他按钮]]></Content>
+		        </xml>
+[2018/03/02 11:04:27] [:info] TR0001: 返回文本消息字符串: <xml>
+					<ToUserName><![CDATA[]]></ToUserName>
+					<FromUserName><![CDATA[]]></FromUserName>
+					<CreateTime>1519959867</CreateTime>
+					<MsgType><![CDATA[text]]></MsgType>
+					<Content><![CDATA[TODO: 其他未处理消息类型]]></Content>
+		        </xml>
+[2018/03/02 11:05:24] [:info] TR0001: 返回文本消息字符串: <xml>
+					<ToUserName><![CDATA[ofWFh0oKZNPWY7RGxmCe2Tp8ShIk]]></ToUserName>
+					<FromUserName><![CDATA[gh_979c3986fc2a]]></FromUserName>
+					<CreateTime>1519959924</CreateTime>
+					<MsgType><![CDATA[text]]></MsgType>
+					<Content><![CDATA[你发送的是文本消息:]]]></Content>
+		        </xml>
+[2018/03/02 11:05:39] [:info] TR0001: 返回文本消息字符串: <xml>
+					<ToUserName><![CDATA[ofWFh0oKZNPWY7RGxmCe2Tp8ShIk]]></ToUserName>
+					<FromUserName><![CDATA[gh_979c3986fc2a]]></FromUserName>
+					<CreateTime>1519959939</CreateTime>
+					<MsgType><![CDATA[text]]></MsgType>
+					<Content><![CDATA[你发送的是文本消息:]]]]></Content>
+		        </xml>
+[2018/03/02 11:05:49] [:info] TR0001: 返回文本消息字符串: <xml>
+					<ToUserName><![CDATA[ofWFh0oKZNPWY7RGxmCe2Tp8ShIk]]></ToUserName>
+					<FromUserName><![CDATA[gh_979c3986fc2a]]></FromUserName>
+					<CreateTime>1519959949</CreateTime>
+					<MsgType><![CDATA[text]]></MsgType>
+					<Content><![CDATA[你发送的是文本消息:>]]]></Content>
+		        </xml>
+[2018/03/02 11:06:02] [:info] TR0001: 返回文本消息字符串: <xml>
+					<ToUserName><![CDATA[ofWFh0oKZNPWY7RGxmCe2Tp8ShIk]]></ToUserName>
+					<FromUserName><![CDATA[gh_979c3986fc2a]]></FromUserName>
+					<CreateTime>1519959962</CreateTime>
+					<MsgType><![CDATA[text]]></MsgType>
+					<Content><![CDATA[你发送的是文本消息:]>]]></Content>
+		        </xml>
+[2018/03/02 11:06:25] [:info] TR0001: 返回文本消息字符串: <xml>
+					<ToUserName><![CDATA[]]></ToUserName>
+					<FromUserName><![CDATA[]]></FromUserName>
+					<CreateTime>1519959985</CreateTime>
+					<MsgType><![CDATA[text]]></MsgType>
+					<Content><![CDATA[TODO: 其他未处理消息类型]]></Content>
+		        </xml>
+[2018/03/02 11:11:55] [:info] TR0001: 返回文本消息字符串: <xml>
+					<ToUserName><![CDATA[ofWFh0qBP6VYX3hGT8h1ulcGptBI]]></ToUserName>
+					<FromUserName><![CDATA[gh_979c3986fc2a]]></FromUserName>
+					<CreateTime>1519960315</CreateTime>
+					<MsgType><![CDATA[text]]></MsgType>
+					<Content><![CDATA[]]></Content>
+		        </xml>
+[2018/03/02 11:14:01] [:info] TR0001: 返回文本消息字符串: <xml>
+					<ToUserName><![CDATA[ofWFh0m6iaolW_BYXa5eA0voZxZI]]></ToUserName>
+					<FromUserName><![CDATA[gh_979c3986fc2a]]></FromUserName>
+					<CreateTime>1519960441</CreateTime>
+					<MsgType><![CDATA[text]]></MsgType>
+					<Content><![CDATA[你发送的是文本消息:嗨]]></Content>
+		        </xml>
+[2018/03/02 11:14:11] [:info] TR0001: 返回文本消息字符串: <xml>
+					<ToUserName><![CDATA[ofWFh0m6iaolW_BYXa5eA0voZxZI]]></ToUserName>
+					<FromUserName><![CDATA[gh_979c3986fc2a]]></FromUserName>
+					<CreateTime>1519960451</CreateTime>
+					<MsgType><![CDATA[text]]></MsgType>
+					<Content><![CDATA[你发送的是文本消息:【收到不支持的消息类型，暂无法显示】]]></Content>
+		        </xml>
+[2018/03/02 11:16:19] [:info] TR0001: 返回文本消息字符串: <xml>
+					<ToUserName><![CDATA[ofWFh0m6iaolW_BYXa5eA0voZxZI]]></ToUserName>
+					<FromUserName><![CDATA[gh_979c3986fc2a]]></FromUserName>
+					<CreateTime>1519960579</CreateTime>
+					<MsgType><![CDATA[text]]></MsgType>
+					<Content><![CDATA[你发送的是文本消息:知道啦]]></Content>
+		        </xml>
+[2018/03/02 17:38:02] [:info] TR0001: 返回文本消息字符串: <xml>
+					<ToUserName><![CDATA[ogSMr1RmjWxsJ5XE4mcDeoPE5kv8]]></ToUserName>
+					<FromUserName><![CDATA[gh_8d6b42d51b14]]></FromUserName>
+					<CreateTime>1519983482</CreateTime>
+					<MsgType><![CDATA[text]]></MsgType>
+					<Content><![CDATA[您好, 
+性别: 未知
+地区:   
+语言: 未知
+关注: 1970年01月01日]]></Content>
+		        </xml>
+[2018/03/02 17:41:05] [:info] TR0001: 返回文本消息字符串: <xml>
+					<ToUserName><![CDATA[ogSMr1RmjWxsJ5XE4mcDeoPE5kv8]]></ToUserName>
+					<FromUserName><![CDATA[gh_8d6b42d51b14]]></FromUserName>
+					<CreateTime>1519983665</CreateTime>
+					<MsgType><![CDATA[text]]></MsgType>
+					<Content><![CDATA[]]></Content>
+		        </xml>
+[2018/03/02 17:42:15] [:info] TR0001: 返回文本消息字符串: <xml>
+					<ToUserName><![CDATA[ogSMr1RmjWxsJ5XE4mcDeoPE5kv8]]></ToUserName>
+					<FromUserName><![CDATA[gh_8d6b42d51b14]]></FromUserName>
+					<CreateTime>1519983735</CreateTime>
+					<MsgType><![CDATA[text]]></MsgType>
+					<Content><![CDATA[您好, 
+性别: 未知
+地区:   
+语言: 未知
+关注: 1970年01月01日]]></Content>
+		        </xml>
+[2018/03/02 17:52:45] [:info] TR0001: 返回文本消息字符串: <xml>
+					<ToUserName><![CDATA[ogSMr1RmjWxsJ5XE4mcDeoPE5kv8]]></ToUserName>
+					<FromUserName><![CDATA[gh_8d6b42d51b14]]></FromUserName>
+					<CreateTime>1519984365</CreateTime>
+					<MsgType><![CDATA[text]]></MsgType>
+					<Content><![CDATA[您好, 
+性别: 未知
+地区:   
+语言: 未知
+关注: 1970年01月01日]]></Content>
+		        </xml>
+[2018/03/02 17:59:44] [:info] TR0001: 返回文本消息字符串: <xml>
+					<ToUserName><![CDATA[ogSMr1RmjWxsJ5XE4mcDeoPE5kv8]]></ToUserName>
+					<FromUserName><![CDATA[gh_8d6b42d51b14]]></FromUserName>
+					<CreateTime>1519984784</CreateTime>
+					<MsgType><![CDATA[text]]></MsgType>
+					<Content><![CDATA[您好, 
+性别: 未知
+地区:   
+语言: 未知
+关注: 1970年01月01日]]></Content>
+		        </xml>
+[2018/03/02 18:00:05] [:info] TR0001: 返回文本消息字符串: <xml>
+					<ToUserName><![CDATA[ogSMr1RmjWxsJ5XE4mcDeoPE5kv8]]></ToUserName>
+					<FromUserName><![CDATA[gh_8d6b42d51b14]]></FromUserName>
+					<CreateTime>1519984805</CreateTime>
+					<MsgType><![CDATA[text]]></MsgType>
+					<Content><![CDATA[您好, 
+性别: 未知
+地区:   
+语言: 未知
+关注: 1970年01月01日]]></Content>
+		        </xml>
+[2018/03/02 18:08:25] [:info] TR0001: 返回文本消息字符串: <xml>
+					<ToUserName><![CDATA[ogSMr1RmjWxsJ5XE4mcDeoPE5kv8]]></ToUserName>
+					<FromUserName><![CDATA[gh_8d6b42d51b14]]></FromUserName>
+					<CreateTime>1519985305</CreateTime>
+					<MsgType><![CDATA[text]]></MsgType>
+					<Content><![CDATA[您好, 
+性别: 未知
+地区:   
+语言: 未知
+关注: 1970年01月01日]]></Content>
+		        </xml>
+[2018/03/02 18:08:31] [:info] TR0001: 返回文本消息字符串: <xml>
+					<ToUserName><![CDATA[ogSMr1RmjWxsJ5XE4mcDeoPE5kv8]]></ToUserName>
+					<FromUserName><![CDATA[gh_8d6b42d51b14]]></FromUserName>
+					<CreateTime>1519985311</CreateTime>
+					<MsgType><![CDATA[text]]></MsgType>
+					<Content><![CDATA[点击其他按钮]]></Content>
+		        </xml>
+[2018/03/02 18:09:50] [:info] TR0001: 返回文本消息字符串: <xml>
+					<ToUserName><![CDATA[ogSMr1RmjWxsJ5XE4mcDeoPE5kv8]]></ToUserName>
+					<FromUserName><![CDATA[gh_8d6b42d51b14]]></FromUserName>
+					<CreateTime>1519985390</CreateTime>
+					<MsgType><![CDATA[text]]></MsgType>
+					<Content><![CDATA[您好, 
+性别: 未知
+地区:   
+语言: 未知
+关注: 1970年01月01日]]></Content>
+		        </xml>
+[2018/03/02 18:15:46] [:info] TR0001: 返回文本消息字符串: <xml>
+					<ToUserName><![CDATA[ogSMr1RmjWxsJ5XE4mcDeoPE5kv8]]></ToUserName>
+					<FromUserName><![CDATA[gh_8d6b42d51b14]]></FromUserName>
+					<CreateTime>1519985746</CreateTime>
+					<MsgType><![CDATA[text]]></MsgType>
+					<Content><![CDATA[您好, 
+性别: 未知
+地区:   
+语言: 未知
+关注: 1970年01月01日]]></Content>
+		        </xml>
+[2018/03/02 18:18:31] [:info] TR0001: 返回文本消息字符串: <xml>
+					<ToUserName><![CDATA[ogSMr1RmjWxsJ5XE4mcDeoPE5kv8]]></ToUserName>
+					<FromUserName><![CDATA[gh_8d6b42d51b14]]></FromUserName>
+					<CreateTime>1519985911</CreateTime>
+					<MsgType><![CDATA[text]]></MsgType>
+					<Content><![CDATA[您好, 涛
+性别: 男
+地区: 冰岛  
+语言: 简体中文
+关注: 2018年03月02日]]></Content>
+		        </xml>
+[2018/03/05 10:29:28] [:info] TR0001: 返回文本消息字符串: <xml>
+					<ToUserName><![CDATA[ofWFh0oKZNPWY7RGxmCe2Tp8ShIk]]></ToUserName>
+					<FromUserName><![CDATA[gh_979c3986fc2a]]></FromUserName>
+					<CreateTime>1520216968</CreateTime>
+					<MsgType><![CDATA[text]]></MsgType>
+					<Content><![CDATA[你发送的是文本消息:我]]></Content>
+		        </xml>
+[2018/03/05 10:29:38] [:info] TR0001: 返回文本消息字符串: <xml>
+					<ToUserName><![CDATA[ogSMr1RmjWxsJ5XE4mcDeoPE5kv8]]></ToUserName>
+					<FromUserName><![CDATA[gh_8d6b42d51b14]]></FromUserName>
+					<CreateTime>1520216978</CreateTime>
+					<MsgType><![CDATA[text]]></MsgType>
+					<Content><![CDATA[你发送的是文本消息:我]]></Content>
+		        </xml>
+[2018/03/05 11:50:07] [:info] TR0001: 返回文本消息字符串: <xml>
+					<ToUserName><![CDATA[ogSMr1RmjWxsJ5XE4mcDeoPE5kv8]]></ToUserName>
+					<FromUserName><![CDATA[gh_8d6b42d51b14]]></FromUserName>
+					<CreateTime>1520221807</CreateTime>
+					<MsgType><![CDATA[text]]></MsgType>
+					<Content><![CDATA[其他事件类型]]></Content>
+		        </xml>
+[2018/03/05 11:50:51] [:info] TR0001: 返回文本消息字符串: <xml>
+					<ToUserName><![CDATA[ogSMr1RmjWxsJ5XE4mcDeoPE5kv8]]></ToUserName>
+					<FromUserName><![CDATA[gh_8d6b42d51b14]]></FromUserName>
+					<CreateTime>1520221851</CreateTime>
+					<MsgType><![CDATA[text]]></MsgType>
+					<Content><![CDATA[您好, 涛
+性别: 男
+地区: 冰岛  
+语言: 简体中文
+关注: 2018年03月05日]]></Content>
+		        </xml>
+[2018/03/05 11:52:04] [:info] TR0001: 返回文本消息字符串: <xml>
+					<ToUserName><![CDATA[ogSMr1RmjWxsJ5XE4mcDeoPE5kv8]]></ToUserName>
+					<FromUserName><![CDATA[gh_8d6b42d51b14]]></FromUserName>
+					<CreateTime>1520221924</CreateTime>
+					<MsgType><![CDATA[text]]></MsgType>
+					<Content><![CDATA[您好, 涛
+性别: 男
+地区: 冰岛  
+语言: 简体中文
+关注: 2018年03月05日]]></Content>
+		        </xml>
+[2018/03/05 11:53:20] [:info] TR0001: 返回文本消息字符串: <xml>
+					<ToUserName><![CDATA[ogSMr1RmjWxsJ5XE4mcDeoPE5kv8]]></ToUserName>
+					<FromUserName><![CDATA[gh_8d6b42d51b14]]></FromUserName>
+					<CreateTime>1520222000</CreateTime>
+					<MsgType><![CDATA[text]]></MsgType>
+					<Content><![CDATA[你发送的是文本消息:abc]]></Content>
+		        </xml>
+[2018/03/05 11:54:19] [:info] TR0001: 返回文本消息字符串: <xml>
+					<ToUserName><![CDATA[ogSMr1RmjWxsJ5XE4mcDeoPE5kv8]]></ToUserName>
+					<FromUserName><![CDATA[gh_8d6b42d51b14]]></FromUserName>
+					<CreateTime>1520222059</CreateTime>
+					<MsgType><![CDATA[text]]></MsgType>
+					<Content><![CDATA[点击其他按钮]]></Content>
+		        </xml>
+[2018/03/05 16:08:00] [:info] TR0001: 返回文本消息字符串: <xml>
+					<ToUserName><![CDATA[ogSMr1RmjWxsJ5XE4mcDeoPE5kv8]]></ToUserName>
+					<FromUserName><![CDATA[gh_8d6b42d51b14]]></FromUserName>
+					<CreateTime>1520237280</CreateTime>
+					<MsgType><![CDATA[text]]></MsgType>
+					<Content><![CDATA[你发送的是文本消息:天气]]></Content>
+		        </xml>
+[2018/03/05 16:08:06] [:info] TR0001: 返回文本消息字符串: <xml>
+					<ToUserName><![CDATA[ogSMr1RmjWxsJ5XE4mcDeoPE5kv8]]></ToUserName>
+					<FromUserName><![CDATA[gh_8d6b42d51b14]]></FromUserName>
+					<CreateTime>1520237286</CreateTime>
+					<MsgType><![CDATA[text]]></MsgType>
+					<Content><![CDATA[你发送的是文本消息:北京天气]]></Content>
+		        </xml>
+[2018/03/05 16:10:39] [:info] TR0001: 返回文本消息字符串: <xml>
+					<ToUserName><![CDATA[ogSMr1RmjWxsJ5XE4mcDeoPE5kv8]]></ToUserName>
+					<FromUserName><![CDATA[gh_8d6b42d51b14]]></FromUserName>
+					<CreateTime>1520237439</CreateTime>
+					<MsgType><![CDATA[text]]></MsgType>
+					<Content><![CDATA[您好, 涛
+性别: 男
+地区: 冰岛  
+语言: 简体中文
+关注: 2018年03月05日]]></Content>
+		        </xml>
+[2018/03/05 16:10:58] [:info] TR0001: 返回文本消息字符串: <xml>
+					<ToUserName><![CDATA[ogSMr1RmjWxsJ5XE4mcDeoPE5kv8]]></ToUserName>
+					<FromUserName><![CDATA[gh_8d6b42d51b14]]></FromUserName>
+					<CreateTime>1520237458</CreateTime>
+					<MsgType><![CDATA[text]]></MsgType>
+					<Content><![CDATA[您好, 涛
+性别: 男
+地区: 冰岛  
+语言: 简体中文
+关注: 2018年03月05日]]></Content>
+		        </xml>
+[2018/03/05 16:11:13] [:info] TR0001: 返回文本消息字符串: <xml>
+					<ToUserName><![CDATA[ogSMr1RmjWxsJ5XE4mcDeoPE5kv8]]></ToUserName>
+					<FromUserName><![CDATA[gh_8d6b42d51b14]]></FromUserName>
+					<CreateTime>1520237473</CreateTime>
+					<MsgType><![CDATA[text]]></MsgType>
+					<Content><![CDATA[你发送的是文本消息:天气]]></Content>
+		        </xml>
+[2018/03/05 16:13:29] [:info] TR0001: 返回文本消息字符串: <xml>
+					<ToUserName><![CDATA[ogSMr1RmjWxsJ5XE4mcDeoPE5kv8]]></ToUserName>
+					<FromUserName><![CDATA[gh_8d6b42d51b14]]></FromUserName>
+					<CreateTime>1520237609</CreateTime>
+					<MsgType><![CDATA[text]]></MsgType>
+					<Content><![CDATA[123]]></Content>
+		        </xml>
+[2018/03/05 16:13:34] [:info] TR0001: 返回文本消息字符串: <xml>
+					<ToUserName><![CDATA[ogSMr1RmjWxsJ5XE4mcDeoPE5kv8]]></ToUserName>
+					<FromUserName><![CDATA[gh_8d6b42d51b14]]></FromUserName>
+					<CreateTime>1520237614</CreateTime>
+					<MsgType><![CDATA[text]]></MsgType>
+					<Content><![CDATA[123]]></Content>
+		        </xml>
+[2018/03/05 16:13:38] [:info] TR0001: 返回文本消息字符串: <xml>
+					<ToUserName><![CDATA[ogSMr1RmjWxsJ5XE4mcDeoPE5kv8]]></ToUserName>
+					<FromUserName><![CDATA[gh_8d6b42d51b14]]></FromUserName>
+					<CreateTime>1520237618</CreateTime>
+					<MsgType><![CDATA[text]]></MsgType>
+					<Content><![CDATA[你发送的是文本消息:人多]]></Content>
+		        </xml>
+[2018/03/05 16:13:47] [:info] TR0001: 返回文本消息字符串: <xml>
+					<ToUserName><![CDATA[ogSMr1RmjWxsJ5XE4mcDeoPE5kv8]]></ToUserName>
+					<FromUserName><![CDATA[gh_8d6b42d51b14]]></FromUserName>
+					<CreateTime>1520237627</CreateTime>
+					<MsgType><![CDATA[text]]></MsgType>
+					<Content><![CDATA[您好, 涛
+性别: 男
+地区: 冰岛  
+语言: 简体中文
+关注: 2018年03月05日
+输入城市名, 获取该城市天气情况, 例如: 北京天气]]></Content>
+		        </xml>
+[2018/03/05 16:18:31] [:info] TR0001: 返回文本消息字符串: <xml>
+					<ToUserName><![CDATA[ogSMr1RmjWxsJ5XE4mcDeoPE5kv8]]></ToUserName>
+					<FromUserName><![CDATA[gh_8d6b42d51b14]]></FromUserName>
+					<CreateTime>1520237911</CreateTime>
+					<MsgType><![CDATA[text]]></MsgType>
+					<Content><![CDATA[北京]]></Content>
+		        </xml>
+[2018/03/05 16:18:39] [:info] TR0001: 返回文本消息字符串: <xml>
+					<ToUserName><![CDATA[ogSMr1RmjWxsJ5XE4mcDeoPE5kv8]]></ToUserName>
+					<FromUserName><![CDATA[gh_8d6b42d51b14]]></FromUserName>
+					<CreateTime>1520237919</CreateTime>
+					<MsgType><![CDATA[text]]></MsgType>
+					<Content><![CDATA[黑龙江]]></Content>
+		        </xml>
+[2018/03/05 17:14:16] [:info] TR0001: 返回文本消息字符串: <xml>
+					<ToUserName><![CDATA[ogSMr1RmjWxsJ5XE4mcDeoPE5kv8]]></ToUserName>
+					<FromUserName><![CDATA[gh_8d6b42d51b14]]></FromUserName>
+					<CreateTime>1520241256</CreateTime>
+					<MsgType><![CDATA[text]]></MsgType>
+					<Content><![CDATA[您好, 涛
+性别: 男
+地区: 冰岛  
+语言: 简体中文
+关注: 2018年03月05日
+输入城市名, 获取该城市天气情况, 例如: 北京天气]]></Content>
+		        </xml>
+[2018/03/05 17:14:23] [:info] TR0001: 返回文本消息字符串: <xml>
+					<ToUserName><![CDATA[ogSMr1RmjWxsJ5XE4mcDeoPE5kv8]]></ToUserName>
+					<FromUserName><![CDATA[gh_8d6b42d51b14]]></FromUserName>
+					<CreateTime>1520241263</CreateTime>
+					<MsgType><![CDATA[text]]></MsgType>
+					<Content><![CDATA[123]]></Content>
+		        </xml>
+[2018/03/05 17:14:52] [:info] TR0001: 返回文本消息字符串: <xml>
+					<ToUserName><![CDATA[ogSMr1RmjWxsJ5XE4mcDeoPE5kv8]]></ToUserName>
+					<FromUserName><![CDATA[gh_8d6b42d51b14]]></FromUserName>
+					<CreateTime>1520241292</CreateTime>
+					<MsgType><![CDATA[text]]></MsgType>
+					<Content><![CDATA[123]]></Content>
+		        </xml>
+[2018/03/05 17:15:11] [:info] TR0001: 返回文本消息字符串: <xml>
+					<ToUserName><![CDATA[ogSMr1RmjWxsJ5XE4mcDeoPE5kv8]]></ToUserName>
+					<FromUserName><![CDATA[gh_8d6b42d51b14]]></FromUserName>
+					<CreateTime>1520241311</CreateTime>
+					<MsgType><![CDATA[text]]></MsgType>
+					<Content><![CDATA[123]]></Content>
+		        </xml>
+[2018/03/05 17:15:52] [:info] TR0001: 返回文本消息字符串: <xml>
+					<ToUserName><![CDATA[ogSMr1RmjWxsJ5XE4mcDeoPE5kv8]]></ToUserName>
+					<FromUserName><![CDATA[gh_8d6b42d51b14]]></FromUserName>
+					<CreateTime>1520241352</CreateTime>
+					<MsgType><![CDATA[text]]></MsgType>
+					<Content><![CDATA[您好, 涛
+性别: 男
+地区: 冰岛  
+语言: 简体中文
+关注: 2018年03月05日
+输入城市名, 获取该城市天气情况, 例如: 北京天气]]></Content>
+		        </xml>
+[2018/03/05 17:17:56] [:info] TR0001: 返回文本消息字符串: <xml>
+					<ToUserName><![CDATA[ogSMr1RmjWxsJ5XE4mcDeoPE5kv8]]></ToUserName>
+					<FromUserName><![CDATA[gh_8d6b42d51b14]]></FromUserName>
+					<CreateTime>1520241476</CreateTime>
+					<MsgType><![CDATA[text]]></MsgType>
+					<Content><![CDATA[您好, 涛
+性别: 男
+地区: 冰岛  
+语言: 简体中文
+关注: 2018年03月05日
+输入城市名, 获取该城市天气情况, 例如: 北京天气]]></Content>
+		        </xml>
+[2018/03/05 17:48:06] [:info] TR0001: 返回文本消息字符串: <xml>
+					<ToUserName><![CDATA[ofWFh0qBP6VYX3hGT8h1ulcGptBI]]></ToUserName>
+					<FromUserName><![CDATA[gh_979c3986fc2a]]></FromUserName>
+					<CreateTime>1520243286</CreateTime>
+					<MsgType><![CDATA[text]]></MsgType>
+					<Content><![CDATA[其他事件类型]]></Content>
+		        </xml>
+[2018/03/05 17:51:56] [:info] TR0001: 返回文本消息字符串: <xml>
+					<ToUserName><![CDATA[ofWFh0m6iaolW_BYXa5eA0voZxZI]]></ToUserName>
+					<FromUserName><![CDATA[gh_979c3986fc2a]]></FromUserName>
+					<CreateTime>1520243516</CreateTime>
+					<MsgType><![CDATA[text]]></MsgType>
+					<Content><![CDATA[你发送的是文本消息:诶亚  不错]]></Content>
+		        </xml>
