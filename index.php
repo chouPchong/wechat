@@ -135,9 +135,12 @@ class WechatAPI
     private function handleClickEvent($xmlObj)
     {
         switch ($xmlObj->EventKey) {
-            case 'TRKEY_01_01': // 点击"宅急送"按钮, 返回一条图文消息
+            case 'TRKEY_01_01':
                 // 1.准备二维数组(数据来源多样化)
-                $newsArray = [['Title' => '华为推出新产品', 'Description' => '2019年1月25日,.....', 'PicUrl' => 'http://1.shirleytest.applinzi.com/images/5959f2beNbb7c699b.jpg', 'Url' => 'http://m.dianping.com'], ['Title' => '彭麻麻访问...', 'Description' => '2019年1月25日,.....', 'PicUrl' => 'http://1.shirleytest.applinzi.com/images/596c7157N852de046.jpg', 'Url' => 'http://m.dianping.com']];
+                $newsArray = [
+                    ['Title' => '萨达姆做好战斗准备', 'Description' => '2019年1月25日,美军波斯湾登录...', 'PicUrl' => 'http://www.renxinjing.com/picture/ms001.jpeg', 'Url' => 'http://m.dianping.com'],
+                    ['Title' => '母猪的产后护理', 'Description' => '2019年1月25日,宋晓峰老丈人宋富贵...', 'PicUrl' => 'http://www.renxinjing.com/picture/ms002.jpeg', 'Url' => 'http://bing.com']
+                ];
                 // 2.拼接XML字符串
                 $result = $this->transmitNews($xmlObj, $newsArray);
                 break;
@@ -162,14 +165,13 @@ class WechatAPI
         if ($keyword == '图文') {
             // 1.准备二维数组(数据来源多样化)
             $newsArray = [
-                ['Title' => '习大大访问...', 'Description' => '2019年1月25日,.....', 'PicUrl' => 'http://1.shirleytest.applinzi.com/images/5959f2beNbb7c699b.jpg', 'Url' => 'http://m.dianping.com'],
-                ['Title' => '彭麻麻访问...', 'Description' => '2019年1月25日,.....', 'PicUrl' => 'http://1.shirleytest.applinzi.com/images/596c7157N852de046.jpg', 'Url' => 'http://m.dianping.com']
+                ['Title' => '萨达姆做好战斗准备', 'Description' => '2019年1月25日,美军波斯湾登录...', 'PicUrl' => 'http://www.renxinjing.com/picture/ms001.jpeg', 'Url' => 'http://m.dianping.com'],
+                ['Title' => '母猪的产后护理', 'Description' => '2019年1月25日,宋晓峰老丈人宋富贵...', 'PicUrl' => 'http://www.renxinjing.com/picture/ms002.jpeg', 'Url' => 'http://bing.com']
             ];
-
             // 2.拼接XML字符串
             $result = $this->transmitNews($xmlObj, $newsArray);
 
-        } else if (strstr($keyword, '天气')) {
+        } elseif (strstr($keyword, '天气')) {
             // "北京天气" --> strstr --> '天气'
             // 1.获取用户输入城市名
             $cityName = str_replace('天气', '', $keyword);
@@ -225,7 +227,7 @@ class WechatAPI
 
         // 3.填空
         $result = sprintf($leftStr, $xmlObj->FromUserName, $xmlObj->ToUserName, time(), count($newsArray));
-
+        file_put_contents('result.txt', $result);
         // 4.返回
         return $result;
     }
@@ -252,13 +254,14 @@ class WechatAPI
      */
     private function transmitText($xmlObj, $content)
     {
-        $resultStr = '<xml>
-<ToUserName><![CDATA[%s]]></ToUserName>
-<FromUserName><![CDATA[%s]]></FromUserName>
-<CreateTime>%s</CreateTime>
-<MsgType><![CDATA[text]]></MsgType>
-<Content><![CDATA[%s]]></Content>
-</xml>';
+        $resultStr = '
+            <xml>
+                <ToUserName><![CDATA[%s]]></ToUserName>
+                <FromUserName><![CDATA[%s]]></FromUserName>
+                <CreateTime>%s</CreateTime>
+                <MsgType><![CDATA[text]]></MsgType>
+                <Content><![CDATA[%s]]></Content>
+            </xml>';
 
         $resultStr = sprintf($resultStr, $xmlObj->FromUserName, $xmlObj->ToUserName, time(), $content);
 
