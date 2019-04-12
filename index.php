@@ -1,16 +1,16 @@
 <?php
 
 header('Content-Type: text');
-
 require "wechat.base.php";
 require "weather.php";
 
 define('TOKEN', 'weixin');
-define('APP_ID', 'wx3f51800720810ab5');
-define('APP_SECRECT', 'c94814f967e58c7bb047f761acba1efd');
+define('APP_ID', 'wxc2c0b8939c0f0680');
+define('APP_SECRECT', '251e918de3f431ab911537e39e2d6e56');
 
 // 1.实例化对象; Obj是object公认的缩写
 $wechatObj = new WechatAPI();
+
 // 2.调用方法
 if (isset($_GET['echostr'])) {
     $wechatObj->validSignature();
@@ -135,7 +135,7 @@ class WechatAPI
     private function handleClickEvent($xmlObj)
     {
         switch ($xmlObj->EventKey) {
-            case 'V02_01': // 点击"宅急送"按钮, 返回一条图文消息
+            case 'TRKEY_01_01': // 点击"宅急送"按钮, 返回一条图文消息
                 // 1.准备二维数组(数据来源多样化)
                 $newsArray = [['Title' => '华为推出新产品', 'Description' => '2019年1月25日,.....', 'PicUrl' => 'http://1.shirleytest.applinzi.com/images/5959f2beNbb7c699b.jpg', 'Url' => 'http://m.dianping.com'], ['Title' => '彭麻麻访问...', 'Description' => '2019年1月25日,.....', 'PicUrl' => 'http://1.shirleytest.applinzi.com/images/596c7157N852de046.jpg', 'Url' => 'http://m.dianping.com']];
                 // 2.拼接XML字符串
@@ -225,7 +225,7 @@ class WechatAPI
 
         // 3.填空
         $result = sprintf($leftStr, $xmlObj->FromUserName, $xmlObj->ToUserName, time(), count($newsArray));
-        
+
         // 4.返回
         return $result;
     }

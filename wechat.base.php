@@ -54,7 +54,6 @@ function getAccessToken($appID, $appSecret) {
 	}
 	//超时或存储文件不存在就获取
 	$url = "https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=" . $appID . "&secret=" . $appSecret;
-    file_put_contents('result.txt', $url);
 	$tokenJsonStr = httpsRequest($url);
 	$tokenJsonArr = json_decode($tokenJsonStr, true);
 	$accessToken = $tokenJsonArr['access_token'];

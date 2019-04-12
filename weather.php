@@ -1,7 +1,5 @@
 <?php
 
-include 'wechat.base.php';
-
 define("KEY", "d1c00b06d0e745cb89c475e3b36d74b9");
 
 /**
@@ -15,7 +13,7 @@ function getWeatherInfo($cityName) {
     $weatherJsonStr = httpsRequest($url);
     $weatherJsonArr = json_decode($weatherJsonStr, true);
     $weatherInfo = $weatherJsonArr['HeWeather6'][0];
-
+    file_put_contents('weather.log', json_encode($weatherInfo));
     if ($weatherInfo['status'] != ok) {
         return $weatherInfo['status'];
     }

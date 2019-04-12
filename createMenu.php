@@ -3,8 +3,8 @@
 header("Content-Type: text");
 
 // 测试账号
-define("APP_ID", "wx3f51800720810ab5");
-define("APP_SECRECT", "c94814f967e58c7bb047f761acba1efd");
+define("APP_ID", "wxc2c0b8939c0f0680");
+define("APP_SECRECT", "251e918de3f431ab911537e39e2d6e56");
 require "wechat.base.php";
 
 // 1.access_token
@@ -27,7 +27,7 @@ $jsonData = '{
   					"key": "TRKEY_01_02"
   				},
   				{
-  					"name": "烧烤大全",
+  					"name": "美食尊享",
   					"type": "click",
   					"key": "TRKEY_01_03"
   				}
