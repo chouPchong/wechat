@@ -13,7 +13,7 @@ function getWeatherInfo($cityName) {
     $weatherJsonStr = httpsRequest($url);
     $weatherJsonArr = json_decode($weatherJsonStr, true);
     $weatherInfo = $weatherJsonArr['HeWeather6'][0];
-    file_put_contents('weather.log', json_encode($weatherInfo));
+
     if ($weatherInfo['status'] != ok) {
         return $weatherInfo['status'];
     }

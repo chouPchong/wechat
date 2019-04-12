@@ -129,7 +129,6 @@ class WechatAPI
      * 处理所有click类型按钮点击事件
      *
      * @param SimpleXMLElement
-     *
      * @return String
      */
     private function handleClickEvent($xmlObj)
@@ -137,10 +136,11 @@ class WechatAPI
         switch ($xmlObj->EventKey) {
             case 'TRKEY_01_01':
                 // 1.准备二维数组(数据来源多样化)
-                $newsArray = [
-                    ['Title' => '萨达姆做好战斗准备', 'Description' => '2019年1月25日,美军波斯湾登录...', 'PicUrl' => 'http://www.renxinjing.com/picture/ms001.jpeg', 'Url' => 'http://m.dianping.com'],
-                    ['Title' => '母猪的产后护理', 'Description' => '2019年1月25日,宋晓峰老丈人宋富贵...', 'PicUrl' => 'http://www.renxinjing.com/picture/ms002.jpeg', 'Url' => 'http://bing.com']
-                ];
+//                $newsArray = [
+//                    ['Title' => '萨达姆做好战斗准备', 'Description' => '2019年1月25日,美军波斯湾登录...', 'PicUrl' => 'http://www.renxinjing.com/picture/ms001.jpeg', 'Url' => 'http://m.dianping.com'],
+//                    ['Title' => '母猪的产后护理', 'Description' => '2019年1月25日,宋晓峰老丈人宋富贵...', 'PicUrl' => 'http://www.renxinjing.com/picture/ms002.jpeg', 'Url' => 'http://bing.com']
+//                ];
+                $newsArray = getWeatherInfo('保定');
                 // 2.拼接XML字符串
                 $result = $this->transmitNews($xmlObj, $newsArray);
                 break;
@@ -156,7 +156,6 @@ class WechatAPI
      * 判断用户输入文本消息内容, 返回拼接XML字符串
      *
      * @param SimpleXMLElment $xmlObj
-     *
      * @return String
      */
     private function receiveTextMsg($xmlObj)
@@ -164,24 +163,26 @@ class WechatAPI
         $keyword = trim($xmlObj->Content);
         if ($keyword == '图文') {
             // 1.准备二维数组(数据来源多样化)
-            $newsArray = [
+            $content = [
                 ['Title' => '萨达姆做好战斗准备', 'Description' => '2019年1月25日,美军波斯湾登录...', 'PicUrl' => 'http://www.renxinjing.com/picture/ms001.jpeg', 'Url' => 'http://m.dianping.com'],
                 ['Title' => '母猪的产后护理', 'Description' => '2019年1月25日,宋晓峰老丈人宋富贵...', 'PicUrl' => 'http://www.renxinjing.com/picture/ms002.jpeg', 'Url' => 'http://bing.com']
             ];
-            // 2.拼接XML字符串
-            $result = $this->transmitNews($xmlObj, $newsArray);
 
         } elseif (strstr($keyword, '天气')) {
-            // "北京天气" --> strstr --> '天气'
             // 1.获取用户输入城市名
             $cityName = str_replace('天气', '', $keyword);
             // 2.调用方法/函数, 返回未来三天天气情况(二维数组)
-            $resultArray = getWeatherInfo($cityName);
-            // 3.transmitNews方法
-            $result = $this->transmitNews($xmlObj, $resultArray);
+            $content  = getWeatherInfo($cityName);
         } else {
-            $content = '你发送的是文本消息, 输入内容是: ' . $xmlObj->Content;
-            $result  = $this->transmitText($xmlObj, $content);
+            $content = '你发送的是文本消息, 返回你输入的内容:' . $keyword;
+        }
+
+        if (is_array($content)) {
+            // 数组: 返回图文消息
+            $result = $this->transmitNews($xmlObj, $content);
+        } else {
+            // 字符串: 返回文本消息
+            $result = $this->transmitText($xmlObj, $content);
         }
 
         return $result;
@@ -195,41 +196,37 @@ class WechatAPI
      *
      * @return String XML字符串
      */
-    private function transmitNews($xmlObj, $newsArray)
+    private function transmitNews($xmlObj, $content)
     {
-        if (!is_array($newsArray)) {
+        if (!is_array($content)) {
             return;
         }
 
-        // 1.item
-        $itemStr = '
-            <item>
-                <Title><![CDATA[%s]]></Title>
-                <Description><![CDATA[%s]]></Description>
-                <PicUrl><![CDATA[%s]]></PicUrl>
-                <Url><![CDATA[%s]]></Url>
-            </item>';
+        // 1.循环拼接item部分
+        $itemStr = '<item>
+            <Title><![CDATA[%s]]></Title>
+            <Description><![CDATA[%s]]></Description>
+            <PicUrl><![CDATA[%s]]></PicUrl>
+            <Url><![CDATA[%s]]></Url>
+        </item>';
         $tmpStr = '';
-        foreach ($newsArray as $itemArray) {
-            $tmpStr .= sprintf($itemStr, $itemArray['Title'], $itemArray['Description'], $itemArray['PicUrl'], $itemArray['Url']);
+        foreach ($content as $item) {
+            $tmpStr .= sprintf($itemStr, $item['Title'], $item['Description'], $item['PicUrl'], $item['Url']);
         }
 
-        // 2.剩余部分: 三个XML结构整合一起
-        $leftStr = "
-            <xml>
-                <ToUserName><![CDATA[%s]]></ToUserName>
-                <FromUserName><![CDATA[%s]]></FromUserName>
-                <CreateTime>%s</CreateTime>
-                <MsgType><![CDATA[news]]></MsgType>
-                <ArticleCount>%s</ArticleCount>
-                <Articles>$tmpStr</Articles>
-            </xml>";
-
-        // 3.填空
-        $result = sprintf($leftStr, $xmlObj->FromUserName, $xmlObj->ToUserName, time(), count($newsArray));
-        file_put_contents('result.txt', $result);
-        // 4.返回
-        return $result;
+        // 2.剩下
+        $leftStr = "<xml>
+<ToUserName><![CDATA[%s]]></ToUserName>
+<FromUserName><![CDATA[%s]]></FromUserName>
+<CreateTime>%s</CreateTime>
+<MsgType><![CDATA[news]]></MsgType>
+<ArticleCount>%s</ArticleCount>
+<Articles>$tmpStr</Articles>
+</xml>";
+        $resultStr = sprintf($leftStr, $xmlObj->FromUserName, $xmlObj->ToUserName, time(), count($content));
+file_put_contents('result.txt', $resultStr);
+        // 3.返回
+        return $resultStr;
     }
 
     /**
