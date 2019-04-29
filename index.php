@@ -4,7 +4,7 @@ header('Content-Type: text');
 require "wechat.base.php";
 require "weather.php";
 
-define('TOKEN', 'weixin');
+define('TOKEN', 'renxinjing');
 define('APP_ID', 'wxc2c0b8939c0f0680');
 define('APP_SECRECT', '251e918de3f431ab911537e39e2d6e56');
 
@@ -135,12 +135,12 @@ class WechatAPI
     {
         switch ($xmlObj->EventKey) {
             case 'TRKEY_01_01':
-                // 1.准备二维数组(数据来源多样化)
-//                $newsArray = [
-//                    ['Title' => '萨达姆做好战斗准备', 'Description' => '2019年1月25日,美军波斯湾登录...', 'PicUrl' => 'http://www.renxinjing.com/picture/ms001.jpeg', 'Url' => 'http://m.dianping.com'],
-//                    ['Title' => '母猪的产后护理', 'Description' => '2019年1月25日,宋晓峰老丈人宋富贵...', 'PicUrl' => 'http://www.renxinjing.com/picture/ms002.jpeg', 'Url' => 'http://bing.com']
-//                ];
-                $newsArray = getWeatherInfo('保定');
+//                 1.准备二维数组(数据来源多样化)
+                $newsArray = [
+                    ['Title' => '萨达姆做好战斗准备', 'Description' => '2019年1月25日,美军波斯湾登录...', 'PicUrl' => 'http://www.renxinjing.com/picture/ms001.jpeg', 'Url' => 'http://m.dianping.com'],
+                    ['Title' => '母猪的产后护理', 'Description' => '2019年1月25日,宋晓峰老丈人宋富贵...', 'PicUrl' => 'http://www.renxinjing.com/picture/ms002.jpeg', 'Url' => 'http://bing.com']
+                ];
+//                $newsArray = getWeatherInfo('保定');
                 // 2.拼接XML字符串
                 $result = $this->transmitNews($xmlObj, $newsArray);
                 break;
