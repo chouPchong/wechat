@@ -18,9 +18,21 @@ class Deployment
 //        } else {
 //            http_response_code(403);
 //        }
-        var_dump(getallheaders());
+        var_dump($this->getallheaders());
     }
 
+    function getallheaders()
+    {
+        $headers = '';
+        foreach ($_SERVER as $name => $value)
+        {
+            if (substr($name, 0, 5) == 'HTTP_')
+            {
+                $headers[str_replace(' ', '-', ucwords(strtolower(str_replace('_', ' ', substr($name, 5)))))] = $value;
+            }
+        }
+        return $headers;
+    }
 
     function isFromGithub($payload, $signature)
     {
