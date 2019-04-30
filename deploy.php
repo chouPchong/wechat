@@ -18,7 +18,8 @@ class Deployment
 //        } else {
 //            http_response_code(403);
 //        }
-        var_dump($_SERVER);
+        echo '<pre>';
+        print_r($_SERVER);echo '</pre>';
     }
 
     function getallheaders()
