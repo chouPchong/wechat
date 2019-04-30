@@ -6,9 +6,9 @@ class Deployment
 
     public function deploy()
     {
-        shell_exec('mkdir /var/www/2222');
-//        $signature = $_SERVER['HTTP_X_HUB_SIGNATURE'];
-//        $payload = file_get_contents('php://input');
+        shell_exec('mkdir /var/www/3333');
+        $signature = $_SERVER['HTTP_X_HUB_SIGNATURE'];
+        $payload = file_get_contents('php://input');
 //        if ($this->isFromGithub($payload, $signature)) {
 //            $command = 'cd /var/www/wechat && git pull';
 //            shell_exec($command);
