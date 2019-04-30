@@ -9,7 +9,7 @@ class Deployment
         $commands = ['cd /var/www/wechat', 'git pull'];
         $signature = $_SERVER['HTTP_X_HUB_SIGNATURE'];
         $payload = file_get_contents('php://input');
-        file_put_contents('test.txt', $payload);
+        file_put_contents('test.txt', $signature);
         if ($this->isFromGithub($payload, $signature)) {
             foreach ($commands as $command) {
                 shell_exec($command);
@@ -22,6 +22,7 @@ class Deployment
 
     function isFromGithub($payload, $signature)
     {
+        file_put_contents('result.txt', 'sha1=' . hash_hmac('sha1', $payload, $this->token, false));
         return 'sha1=' . hash_hmac('sha1', $payload, $this->token, false) === $signature;
     }
 }
