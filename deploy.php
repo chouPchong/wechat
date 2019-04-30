@@ -27,6 +27,7 @@ class Deployment
         return 'sha1=' . hash_hmac('sha1', $payload, $this->token, false) === $signature;
     }
 }
-
+echo '000';
 $deploy = new Deployment();
 $deploy->deploy();
+echo '999';
