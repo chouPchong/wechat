@@ -10,6 +10,7 @@ class Deployment
         $headers = getallheaders();
         $signature = $headers['X_Hnu_Signature'];
         $payload = file_get_contents('php://input');
+        file_put_contents('result.txt', '0000');
         if ($this->isFromGithub($payload, $signature)) {
             foreach ($commands as $command) {
                 shell_exec($command);
