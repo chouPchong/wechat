@@ -9,10 +9,8 @@ class Deployment
         $signature = $_SERVER['HTTP_X_HUB_SIGNATURE'];
         $payload = file_get_contents('php://input');
         if ($this->isFromGithub($payload, $signature)) {
-            $commands = ['cd /var/www/wechat', 'git pull'];
-            foreach ($commands as $command) {
-                shell_exec($command);
-            }
+            $command = 'cd /var/www/wechat && git pull';
+            shell_exec($command);
             http_response_code(200);
         } else {
             http_response_code(403);
