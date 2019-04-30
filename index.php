@@ -144,6 +144,14 @@ class WechatAPI
                 // 2.拼接XML字符串
                 $result = $this->transmitNews($xmlObj, $newsArray);
                 break;
+            case 'TRKEY_01_02':
+                $newsArray = getWeatherInfo('保定');
+                $result = $this->transmitNews($xmlObj, $newsArray);
+                break;
+            case 'TRKEY_01_03':
+                $newsArray = getWeatherInfo('北京');
+                $result = $this->transmitNews($xmlObj, $newsArray);
+                break;
             default: // 剩余所有按钮, 返回文本消息
                 $result = $this->transmitText($xmlObj, '更多精彩内容.....');
                 break;
@@ -165,7 +173,6 @@ class WechatAPI
             // 1.准备二维数组(数据来源多样化)
             $content = [
                 ['Title' => '萨达姆做好战斗准备', 'Description' => '2019年1月25日,美军波斯湾登录...', 'PicUrl' => 'http://www.renxinjing.com/picture/ms001.jpeg', 'Url' => 'http://m.dianping.com'],
-                ['Title' => '母猪的产后护理', 'Description' => '2019年1月25日,宋晓峰老丈人宋富贵...', 'PicUrl' => 'http://www.renxinjing.com/picture/ms002.jpeg', 'Url' => 'http://bing.com']
             ];
 
         } elseif (strstr($keyword, '天气')) {
