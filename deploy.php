@@ -6,7 +6,7 @@ class Deployment
 
     public function deploy()
     {
-        $commands = ['cd /var/www/wechat', 'git pull'];
+        $commands = ['cd /var/www/wechat', 'sudo -Hu nginx git pull'];
         $signature = $_SERVER['HTTP_X_HUB_SIGNATURE'];
         $payload = file_get_contents('php://input');
         if ($this->isFromGithub($payload, $signature)) {
