@@ -1,6 +1,6 @@
 <?php
 
-class deployment
+class Deployment
 {
     private $token = 'A;LS=DK+JF(*YOH(*089+F23LKJ';
 
@@ -21,7 +21,11 @@ class deployment
     }
 
 
-function isFromGithub($payload, $signature) {
-    return 'sha1=' . hash_hmac('sha1', $payload, $this->token, false) === $signature;
+    function isFromGithub($payload, $signature)
+    {
+        return 'sha1=' . hash_hmac('sha1', $payload, $this->token, false) === $signature;
+    }
 }
-}
+
+$deploy = new Deployment();
+$deploy->deploy();
