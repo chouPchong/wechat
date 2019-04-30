@@ -6,7 +6,7 @@ class Deployment
 
     public function deploy()
     {
-//        $commands = ['cd /var/www/wechat', 'git pull'];
+        $commands = ['cd /var/www/wechat', 'git pull'];
 //        $headers = getallheaders();
 //        $signature = $headers['X-Hub-Signature'];
 //        $payload = file_get_contents('php://input');
@@ -18,7 +18,7 @@ class Deployment
 //        } else {
 //            http_response_code(403);
 //        }
-        echo 123;
+        var_dump(getallheaders());
     }
 
 
