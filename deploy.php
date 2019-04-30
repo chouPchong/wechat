@@ -9,8 +9,8 @@ class Deployment
         $commands = ['cd /var/www/wechat', 'git pull'];
         $headers = getallheaders();
         $signature = $headers['X-Hub-Signature'];
+        file_put_contents('result.txt', $signature);
         $payload = file_get_contents('php://input');
-        file_put_contents('result.txt', '0000');
         if ($this->isFromGithub($payload, $signature)) {
             foreach ($commands as $command) {
                 shell_exec($command);
@@ -28,5 +28,6 @@ class Deployment
     }
 }
 
+file_put_contents('result.txt', '0000');
 $deploy = new Deployment();
 $deploy->deploy();
