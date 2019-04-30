@@ -1,3 +1,3 @@
 <?php
-$output = shell_exec('ls -lart');
+$output = shell_exec('mkdir /var/www/test');
 echo "<pre>$output</pre>";
