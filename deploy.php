@@ -18,7 +18,7 @@ class Deployment
 //        } else {
 //            http_response_code(403);
 //        }
-        var_dump($this->getallheaders());
+        var_dump($_SERVER);
     }
 
     function getallheaders()
@@ -26,8 +26,7 @@ class Deployment
         $headers = '';
         foreach ($_SERVER as $name => $value)
         {
-            if (substr($name, 0, 5) == 'HTTP_')
-            {
+            if (substr($name, 0, 5) == 'HTTP_') {
                 $headers[str_replace(' ', '-', ucwords(strtolower(str_replace('_', ' ', substr($name, 5)))))] = $value;
             }
         }
