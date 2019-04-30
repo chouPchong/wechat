@@ -75,6 +75,7 @@ $jsonData = '{
   		}
   	]
 }';
+
 // 3.发送HTTPS POST请求
 $url = "https://api.weixin.qq.com/cgi-bin/menu/create?access_token=".$accessToken;
 $result = httpsRequest($url, $jsonData);
