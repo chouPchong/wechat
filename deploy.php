@@ -6,18 +6,19 @@ class Deployment
 
     public function deploy()
     {
-        $commands = ['cd /var/www/wechat', 'git pull'];
-        $headers = getallheaders();
-        $signature = $headers['X-Hub-Signature'];
-        $payload = file_get_contents('php://input');
-        if ($this->isFromGithub($payload, $signature)) {
-            foreach ($commands as $command) {
-                shell_exec($command);
-            }
-            http_response_code(200);
-        } else {
-            http_response_code(403);
-        }
+//        $commands = ['cd /var/www/wechat', 'git pull'];
+//        $headers = getallheaders();
+//        $signature = $headers['X-Hub-Signature'];
+//        $payload = file_get_contents('php://input');
+//        if ($this->isFromGithub($payload, $signature)) {
+//            foreach ($commands as $command) {
+//                shell_exec($command);
+//            }
+//            http_response_code(200);
+//        } else {
+//            http_response_code(403);
+//        }
+        echo 123;
     }
 
 
