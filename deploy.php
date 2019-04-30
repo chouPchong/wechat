@@ -18,7 +18,7 @@ class Deployment
 //        } else {
 //            http_response_code(403);
 //        }
-        echo 123;
+        var_dump(123123);
     }
 
 
