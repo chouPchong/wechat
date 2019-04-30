@@ -9,15 +9,15 @@ class Deployment
         $commands = ['cd /var/www/wechat', 'git pull'];
         $signature = $_SERVER['HTTP_X_HUB_SIGNATURE'];
         $payload = file_get_contents('php://input');
-        file_put_contents('test.txt', json_encode($payload));
-//        if ($this->isFromGithub($payload, $signature)) {
-//            foreach ($commands as $command) {
-//                shell_exec($command);
-//            }
-//            http_response_code(200);
-//        } else {
-//            http_response_code(403);
-//        }
+        file_put_contents('test.txt', $payload);
+        if ($this->isFromGithub($payload, $signature)) {
+            foreach ($commands as $command) {
+                shell_exec($command);
+            }
+            http_response_code(200);
+        } else {
+            http_response_code(403);
+        }
     }
 
     function isFromGithub($payload, $signature)
