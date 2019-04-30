@@ -8,7 +8,7 @@ define('TOKEN', 'renxinjing');
 define('APP_ID', 'wxc2c0b8939c0f0680');
 define('APP_SECRECT', '251e918de3f431ab911537e39e2d6e56');
 
-// 1.实例化对象; Obj是object公认的缩写111
+// 1.实例化对象; Obj是object公认的缩写222
 $wechatObj = new WechatAPI();
 
 // 2.调用方法
