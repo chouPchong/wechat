@@ -1,5 +1,7 @@
 <?php
 
-$output = shell_exec('git help');
+$result = shell_exec('git pull 2>&1', $output, $return_var);;
 
-echo "<pre>$output</pre>";
+echo "<pre>$result</pre><hr>";
+echo "<pre>$output</pre><hr>";
+echo "<pre>$return_var</pre>";
