@@ -9,7 +9,7 @@ class Deployment
         $commands = ['cd /var/www/wechat', 'git pull'];
         $signature = $_SERVER['HTTP_X_HUB_SIGNATURE'];
         $payload = file_get_contents('php://input');
-        file_put_contents('test.txt', json_encode($_SERVER));
+        file_put_contents('test.txt', json_encode($payload));
 //        if ($this->isFromGithub($payload, $signature)) {
 //            foreach ($commands as $command) {
 //                shell_exec($command);
