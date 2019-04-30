@@ -153,7 +153,7 @@ class WechatAPI
                 $result = $this->transmitNews($xmlObj, $newsArray);
                 break;
             default: // 剩余所有按钮, 返回文本消息
-                $result = $this->transmitText($xmlObj, '更多精彩内容，还没写...');
+                $result = $this->transmitText($xmlObj, '更多精彩内容，还没有写...');
                 break;
         }
 
