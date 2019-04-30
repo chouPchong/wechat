@@ -1,7 +1,6 @@
 <?php
 header('Content-Type: text');
 
-
 	/**
 	 * 功能: 发送https get|post请求, 返回响应结果
 	 * @param String $url
